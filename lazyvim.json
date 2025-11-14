@@ -1,7 +1,8 @@
 {
   "extras": [
     "lazyvim.plugins.extras.editor.mini-files",
-    "lazyvim.plugins.extras.lang.haskell"
+    "lazyvim.plugins.extras.lang.haskell",
+    "lazyvim.plugins.extras.lang.tex"
   ],
   "install_version": 7,
   "news": {

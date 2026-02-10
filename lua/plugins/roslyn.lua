@@ -1,5 +1,4 @@
 return {
   "seblyng/roslyn.nvim",
-  opts = {
-  },
+  opts = {},
 }

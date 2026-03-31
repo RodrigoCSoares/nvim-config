@@ -9,9 +9,15 @@ return {
       lsp = {
         enabled = true, -- Enable builtin roslyn lsp
         roslynator_enabled = true, -- Automatically enable roslynator analyzer
-        auto_refresh_codelens = false,
+        auto_refresh_codelens = true,
         analyzer_assemblies = {}, -- Any additional roslyn analyzers you might use like SonarAnalyzer.CSharp
-        config = {},
+        config = {
+          settings = {
+            ["csharp|code_lens"] = {
+              dotnet_enable_references_code_lens = false,
+            },
+          },
+        },
       },
     })
   end,

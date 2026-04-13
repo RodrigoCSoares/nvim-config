@@ -1,7 +1,9 @@
 return {
   "mason-org/mason.nvim",
   opts = function(_, opts)
-    opts.registries = opts.registries or {}
-    table.insert(opts.registries, "github:Crashdummyy/mason-registry")
+    opts.registries = {
+      "github:mason-org/mason-registry",
+      "github:Crashdummyy/mason-registry",
+    }
   end,
 }

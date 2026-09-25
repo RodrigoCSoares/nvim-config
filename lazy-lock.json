@@ -28,7 +28,7 @@
   "mini.pairs": { "branch": "main", "commit": "b1c5a726921b7a8c9321e9a7a208aa0571de5810" },
   "neo-tree.nvim": { "branch": "main", "commit": "162f9b953a692b559afe43e38d60afee81e8e79b" },
   "neotest": { "branch": "master", "commit": "27bf921498043f7ecd821d6db68d05de244bbd02" },
-  "neotest-haskell": { "branch": "main", "commit": "2171a5144c78e5aac161e16202d8ed6e8d59422b" },
+  "neotest-haskell": { "branch": "main", "commit": "18cdb0d0949ed2d193ebd342acb706b5a25c493c" },
   "noice.nvim": { "branch": "main", "commit": "7bfd942445fb63089b59f97ca487d605e715f155" },
   "nui.nvim": { "branch": "main", "commit": "10fc361835c856ba4233ef5ea135b919bf3dce97" },
   "nvim-dap": { "branch": "master", "commit": "cfa2d58f4537aca6ca83e2de1a0d9f1491121264" },

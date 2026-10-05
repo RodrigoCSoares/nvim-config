@@ -1,0 +1,15 @@
+{
+  // Editor-only markdownlint rules for nvim (LazyVim markdown extra).
+  // Passed to markdownlint-cli2 via conform.nvim (see lua/plugins/markdown.lua).
+  "config": {
+    // Line length is handled by prettier (--prose-wrap always), so disable the lint rule.
+    "MD013": false,
+    // Semantic rules with no automatic fixer — too noisy to keep as editor errors.
+    "MD059": false,
+    "MD033": false,
+    "MD024": false,
+    "MD036": false,
+    "MD051": false,
+    "MD025": false
+  }
+}
